@@ -63,7 +63,7 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 #interests img { width: 80%; height: auto; }
 #interests .right img { float: right; }
 #interests .interest-content { padding: 40px 0px; }
-.areal {padding-left: 30%;}
+.areal {padding-left: 35%;}
 #background .row > div { margin-bottom: 20px; }
 #background .row > div img {   width: 100%;  height: 100%; }
 .jumbotron {
@@ -88,6 +88,16 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 .top-container{
     width: 1500px;
     height: 650px;
+}
+
+@media screen and (max-width: 300px) {
+	.areal { padding-left: 18%;}
+  }
+  @media only screen and (orientation: portrait) and (max-width: 767px)  {
+    .areal { padding-left: 18%;}
+}
+@media only screen and (orientation: landscape) and (max-width: 767px)  {
+	.areal { padding-left: 18%;}
 }
 /*.jumbotron:before { 
 	border: 1px solid #FFFFFF;

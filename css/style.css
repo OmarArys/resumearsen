@@ -91,13 +91,13 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 }
 
 @media screen and (max-width: 300px) {
-	.areal { padding-left: 18%;}
+	.areal { padding-left: 15%;}
   }
   @media only screen and (orientation: portrait) and (max-width: 767px)  {
-    .areal { padding-left: 18%;}
+    .areal { padding-left: 15%;}
 }
 @media only screen and (orientation: landscape) and (max-width: 767px)  {
-	.areal { padding-left: 18%;}
+	.areal { padding-left: 15%;}
 }
 /*.jumbotron:before { 
 	border: 1px solid #FFFFFF;
